@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: rgb(227, 117, 117);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(240, 200, 175);
+    content: 100%;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+
+}
+li{
+    list-style: none;
+    font: bold 14px sans-serif;
+    display: inline;
+    background: cornsilk;
+}
+.politica1{
+    display:flex;
+    justify-content: center;
+
+}
+.deportes{
+    display: flex;
+    justify-content: center;
+    
+}
+.deportes11{
+    width: 450px;
+}
+.politica11{
+    width: 400px;
+}
+footer{
+    width: 100%;
+    background: rgb(240, 200, 175);
+    color: rgb(227, 117, 117);
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+a {
+    text-decoration-line: none;
+    text-decoration-color: burlywood ;
+}
+Li:hover{
+    background-color: rgb(250, 201, 144); 
+}
+#imagen {
+    display: inline ;
+    max-width: 50%; 
+    height: auto;
+    
+}
+body{
+    background:rgb(255, 238, 206);
+    margin: 0;
+    width: 100%;
+}
+.articulo a{
+    padding: 5px;
+    display:block;  
+}
+.agrupar{
+    width:100%;
+    padding: 1px;
+    margin:auto;
+ 
+}
