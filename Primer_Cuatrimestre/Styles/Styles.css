@@ -25,7 +25,7 @@ li{
 .politica1{
     display:flex;
     justify-content: center;
-
+   
 }
 .deportes{
     display: flex;
@@ -34,6 +34,7 @@ li{
 }
 .deportes11{
     width: 450px;
+
 }
 .politica11{
     width: 400px;
