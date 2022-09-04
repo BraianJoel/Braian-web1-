@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    background:url('https://previews.123rf.com/images/gertot1967/gertot19671703/gertot1967170300001/73640905-resumen-patr%C3%B3n-medieval-transparente.jpg');
+    padding: 10px;
+}
+
+.contenedor {
+    border: 1px solid white;
+}
+
+article {
+    display: flex;
+}
