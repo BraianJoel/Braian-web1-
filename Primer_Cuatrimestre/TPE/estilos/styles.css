@@ -45,7 +45,7 @@ h1 {
     font-weight: 500;
 }
 
-h2, h1 {
+h2, h1, h3 {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
@@ -58,7 +58,7 @@ h3 {
     padding: 20px;
 }
 
-p {
+p, ul {
     margin-top: 10px;
     text-align: justify;
 }
@@ -94,4 +94,6 @@ input, textarea {
 
 footer, footer p {
     text-align: center;
+    font-family: calibri;
+
 }
