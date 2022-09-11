@@ -9,11 +9,18 @@ nav {
     align-items: center;
     width: 100%;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 section {
     background:url('https://www.toptal.com/designers/subtlepatterns/uploads/grey_wash_wall.png');
     padding: 10px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 68px;
 }
 
 .contenedor {
@@ -42,6 +49,11 @@ h2, h1 {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+h3 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 .texto {
     padding: 20px;
 }
@@ -51,16 +63,23 @@ p {
     text-align: justify;
 }
 
+div p {
+    overflow-y: scroll;
+    height: 205px;
+}
+
 span {
     color: red;
 }
 
 .articulo {
     width: 50%;
+    height: 275px;
 }
 
 .imagen {
     overflow: hidden;
+    
 }
 
 img {
@@ -71,4 +90,8 @@ td, th {
 }
 input, textarea {
     display:block;
+}
+
+footer, footer p {
+    text-align: center;
 }
