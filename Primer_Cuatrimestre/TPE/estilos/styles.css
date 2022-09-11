@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav {
     display: flex;
     align-items: center;
     width: 100%;
+    padding: 20px;
 }
 
 section {
-    background:url('https://previews.123rf.com/images/gertot1967/gertot19671703/gertot1967170300001/73640905-resumen-patr%C3%B3n-medieval-transparente.jpg');
+    background:url('https://www.toptal.com/designers/subtlepatterns/uploads/grey_wash_wall.png');
     padding: 10px;
 }
 
@@ -15,4 +22,53 @@ section {
 
 article {
     display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-family: calibri;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2, h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.texto {
+    padding: 20px;
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+span {
+    color: red;
+}
+
+.articulo {
+    width: 50%;
+}
+
+.imagen {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+td, th {
+    border: solid  1px black;
+}
+input, textarea {
+    display:block;
 }
