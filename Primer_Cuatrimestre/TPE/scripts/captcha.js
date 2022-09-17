@@ -15,10 +15,10 @@ function iniciarPagina(){
 
         if (resultado == numero1 + numero2) {  
             console.log("Captcha válido");
-            nodoVerificador.innerHTML = "Captcha correcto, su email ha sido enviado satisfactoriamente";
+            nodoVerificador.innerHTML = '<ion-icon name="checkmark-circle" class="verificado"></ion-icon>';
         } else {
             console.log("Captcha inválido")
-            document.querySelector('#verificador').innerHTML = "Captcha incorrecto, por favor reintente la suma";
+            document.querySelector('#verificador').innerHTML = '<ion-icon name="close-circle" class="no-verificado"></ion-icon>';
         }
     });
 }

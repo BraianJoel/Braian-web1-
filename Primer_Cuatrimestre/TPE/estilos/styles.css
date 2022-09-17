@@ -23,11 +23,58 @@ section {
     margin-top: 68px;
 }
 
+.cont-general-contacto {
+    width: 100%;
+    justify-content: center;
+}
+
+.contenedor-contacto {
+    margin: 100px 20px 0 20px;
+    max-width: 20%;
+}
+
+label, input, textarea, #suma, #verificador {
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 10%;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+button, #verificador {
+    border: none;
+    padding: 6px;
+    font-family: 'calibri';
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+}
+
+#verificador, #resultado {
+    display: inline;
+}
+
+.verificado {
+    color: #42C834;
+    font-size: 20px;
+}
+
+.no-verificado {
+    font-size: 20px;
+    color: red;
+}
+
+#verificador { 
+    height: auto;
+}
+
 .contenedor {
     border: 1px solid white;
 }
 
-article {
+.flexible {
     display: flex;
 }
 
@@ -54,6 +101,11 @@ h3 {
     margin-top: 5px;
 }
 
+.parrafo-personajes {
+    height: auto;
+    margin: 0;
+}
+
 .texto {
     padding: 20px;
 }
@@ -63,8 +115,7 @@ p, ul {
     text-align: justify;
 }
 
-div p {
-    overflow-y: scroll;
+div p, .scrolleable {
     height: 205px;
 }
 
@@ -95,5 +146,8 @@ input, textarea {
 footer, footer p {
     text-align: center;
     font-family: calibri;
+}
 
+.scrolleable {
+    overflow-y: scroll;
 }

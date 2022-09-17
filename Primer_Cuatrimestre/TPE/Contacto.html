@@ -16,22 +16,29 @@
             <a href="Contacto.html">Contacto</a>
         </nav>
     </header>
-    <form id="contacto-form">
-        <label for="name">Nombre:</label>
-        <input type="text" name="nombre" placeholder="Ingrese su nombre aquí..."/>
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" placeholder="Ingrese su apellido aquí..."/>
-        <label for="correo">Correo Electrónico:</label>
-        <input type="email" name="correo" placeholder="Ingrese su correo aquí..."/>
-        <label for="comentario"> Déjenos sus dudas, comentarios o sugerencias:</label>
-        <textarea name="comentario" rows="8" cols="40"></textarea>
-        <label for="captcha">Captcha:</label>
-        <div id="suma"></div>
-        <input type="text" id="resultado" name="captcha" placeholder="Ingrese aquí el resultado de la suma anterior"/>
-        <input type="submit" value="Enviar" id="boton-form"/>
-        <p id="verificador"></p>
-
-    </form>
+    <main class="flexible cont-general-contacto">
+        <div class="contenedor-contacto">
+            <h1>Contáctenos</h1>
+            <p>Si quiere saber más acerca de D&D o desea dejarnos algún comentario o sugerencia, por favor rellene el siguiente formulario:</p>
+        </div>
+        <div class="contenedor-contacto">
+            <form id="contacto-form">
+                <label for="name">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre aquí..."/>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido aquí..."/>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" name="correo" placeholder="Ingrese su correo aquí..."/>
+                <label for="comentario"> Déjenos sus dudas, comentarios o sugerencias:</label>
+                <textarea name="comentario" rows="8" cols="40"></textarea>
+                <label for="captcha">Captcha:</label>
+                <div id="suma"></div>
+                <input type="text" id="resultado" name="captcha" placeholder="Ingrese el resultado..."/>
+                <p id="verificador"></p>
+                <button type="submit" id="boton-form">Enviar</button>
+            </form>
+        </div>
+    </main>
 
     <footer>
         <p>
